@@ -6,7 +6,6 @@
 
 from __future__ import absolute_import, division, print_function
 
-import numpy as np
 import time
 
 import torch
@@ -23,7 +22,6 @@ from layers import *
 
 import datasets
 import networks
-from IPython import embed
 
 
 class Trainer:
